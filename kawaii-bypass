@@ -12,7 +12,7 @@ local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/discordpopup/main/discord-popup"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLogger.lua"))()
 local G2L = {}
-G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"))
+G2L["1"] = Instance.new("ScreenGui", game:GetService("CoreGui"));
 G2L["2"] = Instance.new("Frame", G2L["1"])
 G2L["2"]["BorderSizePixel"] = 0
 G2L["2"]["BackgroundColor3"] = Color3.fromRGB(253, 198, 255)
