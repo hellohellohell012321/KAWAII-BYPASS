@@ -1,9 +1,7 @@
 -- MADE BY HELLOHELLOHELL012321 WITH HELP FROM N0RAXD
--- CHATTING AND FILTER DETECTION FUNCTIONS BY SKIRE
--- original: https://scriptblox.com/u/SkireScripts
+-- CHATTING AND FILTER DETECTION FUNCTIONS BY SKIRE (https://scriptblox.com/u/SkireScripts)
 
 -- V2 - NOW WORKS, ALSO IF YOU STEAL THIS YOU LIKE BEING BOOTY FUCKED BY 10 BIG BLACK OILED UP MEN!
-
 
 local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
@@ -11,7 +9,7 @@ local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/
        {Title = "Credits to SkireScripts", Description = "all code for chatting is from simplebypass"},
        {OutlineColor = Color3.fromRGB(80, 80, 80), Time = 8, Type = "default"}
     )
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/discordpopup/main/discord-popup"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/discordpopup/main/discord-popup.lua"))()
 
 local G2L = {}
 G2L["1"] = Instance.new("ScreenGui", game:GetService("CoreGui"));
